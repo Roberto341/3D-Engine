@@ -5,6 +5,8 @@ class TextureManager: public ResourceManager
 public:
 	TextureManager();
 	~TextureManager();
-	RSptr createResourceFromFile(const wchar_t* file_path);
+	TexturePtr createTextureFromFile(const wchar_t* file_path);
+protected:
+	virtual Resource * createResourceFromFileConcrete(const wchar_t* file_path);
 };
 

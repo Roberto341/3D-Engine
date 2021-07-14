@@ -23,4 +23,4 @@ typedef shared_ptr<ConstantBuffer> CBptr;
 typedef shared_ptr<VertexShader> VSptr;
 typedef shared_ptr<PixelShader> PSptr;
 typedef shared_ptr<Resource> RSptr;
-typedef shared_ptr<ResourceManager> RMptr;
+typedef shared_ptr<Texture> TexturePtr;

@@ -44,6 +44,8 @@ private:
 	PSptr m_ps;
 	CBptr m_cb;
 	IBPtr m_ib;
+	TexturePtr m_wood_tex;
+
 	long m_old_delta;
 	long m_new_delta;
 	float m_delta_time;

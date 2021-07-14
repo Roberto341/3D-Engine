@@ -45,6 +45,7 @@
     <ClInclude Include="IndexBuffer.h" />
     <ClInclude Include="InputListener.h" />
     <ClInclude Include="InputSystem.h" />
+    <ClInclude Include="Math.h" />
     <ClInclude Include="Matrix4x4.h" />
     <ClInclude Include="PixelShader.h" />
     <ClInclude Include="Point.h" />
@@ -55,6 +56,7 @@
     <ClInclude Include="SwapChain.h" />
     <ClInclude Include="Texture.h" />
     <ClInclude Include="TextureManager.h" />
+    <ClInclude Include="Vector2.h" />
     <ClInclude Include="Vector3.h" />
     <ClInclude Include="Vector4.h" />
     <ClInclude Include="VertexBuffer.h" />
